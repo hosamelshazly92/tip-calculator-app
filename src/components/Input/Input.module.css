@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: 48px;
+  background-color: #f3f8fb;
+  border: 1px solid #f3f8fb;
+  border-radius: 8px;
+  color: #104849;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 16px;
+  text-align: right;
+  transition: all 0.4s ease-in;
+  caret-color: #26c2ad;
+}
+
+.input::placeholder {
+  color: #a6bbba;
+  font-weight: 200;
+}
+
+.input:focus {
+  border: 1px solid #f3f8fb;
+  outline: none;
+}
+
+.input:hover {
+  border: 1px solid #26c2ad;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.dollar {
+  position: absolute;
+  width: 14px;
+  height: 18px;
+  top: 14px;
+  left: 18px;
+}

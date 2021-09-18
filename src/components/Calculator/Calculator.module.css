@@ -17,10 +17,23 @@
 
 .left {
   padding-right: 32px;
+  justify-content: space-between;
 }
 
 .right {
   background-color: #00474b;
   border-radius: 16px;
   padding: 32px;
+}
+
+.label {
+  margin-bottom: 16px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  height: 120px;
 }
