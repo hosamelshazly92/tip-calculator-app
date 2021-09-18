@@ -3,12 +3,17 @@
   height: 52px;
   color: #fff;
   background-color: #00474b;
-  border: none;
+  border: #00474b;
   border-radius: 8px;
   font-size: 20px;
   font-weight: 400;
   transition: all 0.4s ease-in;
   font-family: "Orbitron", sans-serif;
+}
+
+.button:focus {
+  outline: none;
+  border: 2px solid #26c2ad;
 }
 
 .main:hover {
@@ -29,8 +34,6 @@
   color: #104849;
   transition: all 0.4s ease-in;
   caret-color: #26c2ad;
-  /* font-size: 24px;
-  font-weight: 600; */
 }
 
 .input::placeholder {
