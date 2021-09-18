@@ -17,6 +17,7 @@
   text-align: right;
   transition: all 0.4s ease-in;
   caret-color: #26c2ad;
+  font-family: "Orbitron", sans-serif;
 }
 
 .input::placeholder {

@@ -5,9 +5,10 @@
   background-color: #00474b;
   border: none;
   border-radius: 8px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   transition: all 0.4s ease-in;
+  font-family: "Orbitron", sans-serif;
 }
 
 .main:hover {
@@ -28,8 +29,8 @@
   color: #104849;
   transition: all 0.4s ease-in;
   caret-color: #26c2ad;
-  font-size: 24px;
-  font-weight: 600;
+  /* font-size: 24px;
+  font-weight: 600; */
 }
 
 .input::placeholder {
