@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #939d9f;
+  background-color: #c5e4e7;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
