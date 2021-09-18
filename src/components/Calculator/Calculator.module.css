@@ -24,6 +24,7 @@
   background-color: #00474b;
   border-radius: 16px;
   padding: 32px;
+  justify-content: space-between;
 }
 
 .label {
@@ -36,4 +37,28 @@
   align-content: space-between;
   flex-wrap: wrap;
   height: 120px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalLabel {
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.totalText {
+  font-size: 12px;
+  font-weight: 100;
+  color: #aaa;
+}
+
+.totalResult {
+  font-size: 40px;
+  font-weight: 400;
+  color: #26c2ad;
 }

@@ -1,0 +1,16 @@
+.button {
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  color: #00474b;
+  background-color: #26c2ad;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 32px rgba(0 0 0 / 16%);
+}

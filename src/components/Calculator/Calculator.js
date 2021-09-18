@@ -4,10 +4,15 @@ import {
   label,
   section,
   right,
+  total,
+  totalLabel,
+  totalText,
+  totalResult,
 } from "./Calculator.module.css";
 import Input from "../Input/Input";
 import Tip from "../Tip/Tip";
 import { v4 as uuid } from "uuid";
+import Button from "../Button/Button";
 
 const Calculator = () => {
   const inputs = [
@@ -77,8 +82,23 @@ const Calculator = () => {
         </div>
       </div>
       <div className={right}>
-        <h4>Bill</h4>
-        <h4>Bill</h4>
+        <div className={total}>
+          <div>
+            <h6 className={totalLabel}>Tip total</h6>
+            <p className={totalText}>/ person</p>
+          </div>
+          <p className={totalResult}>$0.00</p>
+        </div>
+
+        <div className={total}>
+          <div>
+            <h6 className={totalLabel}>Total</h6>
+            <p className={totalText}>/ person</p>
+          </div>
+          <p className={totalResult}>$0.00</p>
+        </div>
+
+        <Button />
       </div>
     </div>
   );
