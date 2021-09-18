@@ -47,3 +47,9 @@
   top: 14px;
   left: 18px;
 }
+
+@media (max-width: 1000px) {
+  .input {
+    margin-bottom: 32px;
+  }
+}

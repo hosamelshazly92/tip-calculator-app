@@ -21,8 +21,28 @@ body {
   margin-top: 160px;
 }
 
+.image {
+  height: 80px;
+}
+
 .bottom {
   display: flex;
   justify-content: center;
   margin: 80px 0;
+}
+
+@media (max-width: 1000px) {
+  .top {
+    margin-top: 60px;
+  }
+
+  .image {
+    height: 64px;
+  }
+
+  .bottom {
+    margin: 0;
+    margin-top: 40px;
+    width: 100%;
+  }
 }

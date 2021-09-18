@@ -62,3 +62,42 @@
   font-weight: 400;
   color: #26c2ad;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    height: auto;
+    border-radius: 0;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+  }
+
+  .left {
+    width: 300px;
+    padding-right: 0;
+  }
+
+  .section {
+    height: 188px;
+    margin-bottom: 32px;
+  }
+
+  .right {
+    width: 300px;
+    padding: 24px;
+  }
+
+  .total {
+    margin-bottom: 24px;
+  }
+
+  .totalLabel {
+    font-size: 14px;
+  }
+
+  .totalResult {
+    font-size: 32px;
+  }
+}
